@@ -3,6 +3,23 @@ body {
   margin-top: 40px; /* This margin just makes the text easier to read. You can remove it if you want since it can mess with your other styles. */
 }
 
+.btn-custom {
+  color: #ec5242;
+  border: 1px solid #ec5242;
+}
+
+.btn-custom:active {
+  background-color: #ec5242;
+  color: white;
+  border: 1px solid #ec5242;
+}
+
+.btn-custom:hover {
+  background-color: #ec5242;
+  color: white;
+  border: 1px solid #ec5242;
+}
+
 body::before {
   content: "XS";
   color: #ec5242;

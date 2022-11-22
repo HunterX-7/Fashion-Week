@@ -16,6 +16,23 @@
 </head>
 <body>
     <header>
+        <nav>
+            <div class="container">
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">OPEN</button>
+                <div class="modal fade" id="modal">
+                    <div class="modal-dialog modal-fullscreen">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1>TEST</h1>
+                                <button class="btn-close m-3" data-bs-dismiss="modal" data-bs-target="modal"></button>
+                            </div>
+                            <div class="modal-body">TEST</div>
+                            <div class="modal-footer">TEST</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
         <nav class="navbar navbar-expand text-bg-light">
             <div class="container">
                 <a href="#" class="navbar-brand">Fashion Week</a>
@@ -33,7 +50,7 @@
                         <a href="#" class="nav-link">News</a>
                     </li>
                 </ul>
-                <button type="submit" class="btn btn-outline-danger">Subscribe</button>
+                <button type="submit" class="btn btn-outline-danger  btn-custom">Subscribe</button>
             </div>
         </nav>
         <nav class="navbar navbar-expand text-bg-light">
@@ -56,6 +73,19 @@
                 <button type="submit" class="btn btn-outline-danger">Subscribe</button>
             </div>
         </nav>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+              <h5 class="text-white h4">Collapsed content</h5>
+              <span class="text-muted">Toggleable via the navbar brand.</span>
+            </div>
+          </div>
+          <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
     </header>
     <h1>Fashion Week</h1>
 </body>
