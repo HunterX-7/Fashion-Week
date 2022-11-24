@@ -208,6 +208,94 @@ body {
   font-size: 0.75rem;
 }
 
+.hero-h1-about {
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: 700;
+  color: #ec5242;
+}
+
+.hero-a-about {
+  color: #272a31;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.hero-p-b {
+  font-weight: bold;
+  color: #272a31;
+  margin: 0;
+}
+
+.hero-container-about {
+  background-image: url("images/JPEG/Hero\ 26.jpg"), linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
+  background-position: center center;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.logo-h3 {
+  color: #272a31;
+  font-weight: bold;
+}
+
+.logo-p-mobile {
+  color: #272a31;
+  font-size: 1.2rem;
+}
+
+.logo-p-desk {
+  color: #272a31;
+  font-size: 1.25rem;
+}
+
+.logo-cards {
+  border: 2px solid #f2f2f2;
+  border-radius: 4px;
+}
+
+.logo-cards:hover {
+  border: 2px solid #ec5242;
+  border-radius: 4px;
+}
+
+.logo-a {
+  font-size: 1.5rem;
+  pointer-events: none;
+}
+
+.event-bg1 {
+  background-image: url("images/JPEG/Pijama\ 15.jpg"), linear-gradient(rgba(236, 82, 66, 0.85), rgba(236, 82, 66, 0.85));
+  background-position: center top;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.event-bg2 {
+  background-image: url("images/JPEG/Swimwear\ 18.jpg"), linear-gradient(rgba(236, 82, 66, 0.85), rgba(236, 82, 66, 0.85));
+  background-position: center top;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.event-h3 {
+  color: white;
+  font-weight: bold;
+}
+
+.event-p-mobile {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.event-p-desk {
+  color: white;
+  font-size: 1.25rem;
+}
+
 body::before {
   content: "XS";
   color: #ec5242;
