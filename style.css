@@ -1,3 +1,5 @@
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+
 body {
   font-family: 'Lato', sans-serif;
 }
@@ -62,12 +64,20 @@ body {
   background-attachment: fixed;
 }
 
-.hero-h2 {
+.hero-h2-a {
+  font-size: 1.4rem;
+  color: #ec5242;
+  font-weight: 700;
+}
+
+.hero-h2-b {
+  font-size: 2rem;
   color: #ec5242;
   font-weight: 700;
 }
 
 .hero-h1 {
+  font-family: "COCOGOOSE", sans-serif;
   font-weight: 900;
   background: url("images/JPEG/Red-animal-print.jpg") no-repeat;
   background-position: center center;
@@ -89,6 +99,7 @@ body {
 }
 
 .hero-h3 {
+  font-family: "COCOGOOSE", sans-serif;
   font-weight: 900;
   color: #272a31;
 }
@@ -109,9 +120,16 @@ body {
   color: white;
 }
 
-hr {
+.hr-mobile {
   margin: auto;
-  width: 10%;
+  width: 7.5%;
+  border: 1px solid #ec5242;
+  opacity: 1;
+}
+
+.hr-desk {
+  margin: auto;
+  width: 5%;
   border: 1px solid #ec5242;
   opacity: 1;
 }
@@ -131,6 +149,11 @@ hr {
   font-size: 1rem;
 }
 
+.main-cards {
+  border: 2px solid transparent;
+  border-radius: 4px;
+}
+
 .main-cards:hover {
   border: 2px solid white;
   border-radius: 4px;
@@ -147,6 +170,23 @@ hr {
 .bg-img-thumb {
   background-color: transparent;
   border: none;
+}
+
+.footer-p {
+  color: #272a31;
+  font-size: 0.75rem;
+}
+
+.footer-container {
+  background-color: #f2f2f2;
+}
+
+.footer-a {
+  font-size: 0.95rem;
+}
+
+.footer-a-b {
+  font-size: 1.5rem;
 }
 
 body::before {
