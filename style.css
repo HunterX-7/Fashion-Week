@@ -1,28 +1,152 @@
 body {
   font-family: 'Lato', sans-serif;
-  margin-top: 40px; /* This margin just makes the text easier to read. You can remove it if you want since it can mess with your other styles. */
 }
 
 .btn-custom {
   color: #ec5242;
   border: 2px solid #ec5242;
+  font-weight: bold;
 }
 
 .btn-custom:active {
   background-color: #ec5242;
   color: white;
   border: 2px solid #ec5242;
+  font-weight: bold;
 }
 
 .btn-custom:hover {
   background-color: #ec5242;
   color: white;
   border: 2px solid #ec5242;
+  font-weight: bold;
 }
 
-.color {
+.btn-custom2 {
   background-color: #ec5242;
   color: white;
+  border: 2px solid #ec5242;
+  font-weight: bold;
+}
+
+.btn-custom2:active {
+  background-color: #ec5242;
+  color: white;
+  border: 2px solid #ec5242;
+  font-weight: bold;
+}
+
+.btn-custom2:hover {
+  background-color: #ec5242;
+  color: white;
+  border: 2px solid #ec5242;
+  font-weight: bold;
+}
+
+.navbar-a {
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.navbar-b {
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+
+.hero-container {
+  background-image: url("images/JPEG/Hero\ 19.jpg"), linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
+  background-position: center center;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero-h2 {
+  color: #ec5242;
+  font-weight: 700;
+}
+
+.hero-h1 {
+  font-weight: 900;
+  background: url("images/JPEG/Red-animal-print.jpg") no-repeat;
+  background-position: center center;
+  background-color: #ec5242;
+  background-size: cover;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.hero-container-p {
+  background-color: #272a31;
+  border-radius: 4px;
+}
+
+.hero-p {
+  color: white;
+  margin: 0;
+}
+
+.hero-h3 {
+  font-weight: 900;
+  color: #272a31;
+}
+
+.hero-h4 {
+  font-weight: 400;
+  color: #272a31;
+}
+
+.main-container {
+  background-color: #272a31;
+  background-image: url("images/PNG/ring-32x-light.png"), linear-gradient(rgba(39, 42, 49, 0.65), rgba(39, 42, 49, 0.65));
+  background-blend-mode: overlay;
+  background-repeat: space;
+}
+
+.main-h3 {
+  color: white;
+}
+
+hr {
+  margin: auto;
+  width: 10%;
+  border: 1px solid #ec5242;
+  opacity: 1;
+}
+
+.main-h4 {
+  color: #ec5242;
+  font-weight: bold;
+}
+
+.main-p {
+  color: white;
+  font-size: 0.75rem;
+}
+
+.main-a {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.main-cards:hover {
+  border: 2px solid white;
+  border-radius: 4px;
+}
+
+.partner-container {
+  background-color: #272a31;
+}
+
+.partner-h3 {
+  color: #d3d3d3;
+}
+
+.bg-img-thumb {
+  background-color: transparent;
+  border: none;
 }
 
 body::before {
@@ -35,11 +159,17 @@ body::before {
   right: 0;
 }
 
-/* This box class is purely used for explaining how the bootstrap grid system works. */
 .box {
-  background-color: lightblue;
+  background-color: transparent;
   border: 1px solid blue;
   min-height: 50px;
+  font-size: 2rem;
+}
+
+.box2 {
+  background-color: transparent;
+  border: 1px solid blue;
+  min-height: 25px;
   font-size: 2rem;
 }
 
