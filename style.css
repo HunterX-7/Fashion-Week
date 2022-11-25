@@ -198,7 +198,17 @@ body {
   font-size: 0.8rem;
 }
 
+.footer-a-about:hover {
+  color: #d3d3d3;
+  font-size: 0.8rem;
+}
+
 .footer-a-b-about {
+  color: #d3d3d3;
+  font-size: 1.5rem;
+}
+
+.footer-a-b-about:hover {
   color: #d3d3d3;
   font-size: 1.5rem;
 }
@@ -266,6 +276,7 @@ body {
 }
 
 .event-bg1 {
+  padding: 4rem;
   background-image: url("images/JPEG/Pijama\ 15.jpg"), linear-gradient(rgba(236, 82, 66, 0.85), rgba(236, 82, 66, 0.85));
   background-position: center top;
   background-blend-mode: overlay;
@@ -274,6 +285,7 @@ body {
 }
 
 .event-bg2 {
+  padding: 4rem;
   background-image: url("images/JPEG/Swimwear\ 18.jpg"), linear-gradient(rgba(236, 82, 66, 0.85), rgba(236, 82, 66, 0.85));
   background-position: center top;
   background-blend-mode: overlay;
