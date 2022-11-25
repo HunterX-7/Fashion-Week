@@ -381,16 +381,6 @@ body {
   margin: 0.25rem 0 0 0;
 }
 
-body::before {
-  content: "XS";
-  color: #ec5242;
-  font-size: 2rem;
-  font-weight: bold;
-  position: fixed;
-  top: 0;
-  right: 0;
-}
-
 .box {
   background-color: transparent;
   border: 1px solid transparent;
@@ -403,34 +393,4 @@ body::before {
   border: 1px solid transparent;
   min-height: 25px;
   font-size: 2rem;
-}
-
-@media (min-width: 576px) {
-  body::before {
-    content: "SM";
-  }
-}
-
-@media (min-width: 768px) {
-  body::before {
-    content: "MD";
-  }
-}
-
-@media (min-width: 992px) {
-  body::before {
-    content: "LG";
-  }
-}
-
-@media (min-width: 1200px) {
-  body::before {
-    content: "XL";
-  }
-}
-
-@media (min-width: 1400px) {
-  body::before {
-    content: "XXL";
-  }
 }
