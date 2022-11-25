@@ -1,52 +1,396 @@
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+
 body {
   font-family: 'Lato', sans-serif;
-  margin-top: 40px; /* This margin just makes the text easier to read. You can remove it if you want since it can mess with your other styles. */
 }
 
-body::before {
-  content: "XS";
+.btn-custom {
   color: #ec5242;
-  font-size: 2rem;
+  border: 4px solid #ec5242;
   font-weight: bold;
-  position: fixed;
-  top: 0;
-  right: 0;
 }
 
-/* This box class is purely used for explaining how the bootstrap grid system works. */
+.btn-custom:active {
+  background-color: #ec5242;
+  color: white;
+  border: 4px solid #ec5242;
+  font-weight: bold;
+}
+
+.btn-custom:hover {
+  background-color: #ec5242;
+  color: white;
+  border: 4px solid #ec5242;
+  font-weight: bold;
+}
+
+.btn-custom2 {
+  background-color: #ec5242;
+  color: white;
+  border: 2px solid #ec5242;
+  font-weight: bold;
+}
+
+.btn-custom2:active {
+  background-color: #ec5242;
+  color: white;
+  border: 2px solid #ec5242;
+  font-weight: bold;
+}
+
+.btn-custom2:hover {
+  background-color: #ec5242;
+  color: white;
+  border: 2px solid #ec5242;
+  font-weight: bold;
+}
+
+.btn-custom3 {
+  width: 100%;
+  background-color: white;
+  color: #272a31;
+  border: 2px solid #d3d3d3;
+  font-weight: bold;
+}
+
+.btn-custom3:active {
+  width: 100%;
+  background-color: white;
+  color: #272a31;
+  border: 2px solid #d3d3d3;
+  font-weight: bold;
+}
+
+.btn-custom3:hover {
+  width: 100%;
+  background-color: white;
+  color: #272a31;
+  border: 2px solid #d3d3d3;
+  font-weight: bold;
+}
+
+.navbar-a {
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.navbar-b {
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+
+.hero-container {
+  background-image: url("images/JPEG/Hero\ 19.jpg"), linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
+  background-position: center center;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero-h2-a {
+  font-size: 1.4rem;
+  color: #ec5242;
+  font-weight: 700;
+}
+
+.hero-h2-b {
+  font-size: 2rem;
+  color: #ec5242;
+  font-weight: 700;
+}
+
+.hero-h1 {
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: 900;
+  background: url("images/JPEG/Red-animal-print.jpg") no-repeat;
+  background-position: center center;
+  background-color: #ec5242;
+  background-size: cover;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.hero-container-p {
+  background-color: #272a31;
+  border-radius: 4px;
+}
+
+.hero-p {
+  color: white;
+  margin: 0;
+}
+
+.hero-h3 {
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: 900;
+  color: #272a31;
+}
+
+.hero-h4 {
+  font-weight: 400;
+  color: #272a31;
+}
+
+.main-container {
+  background-color: #272a31;
+  background-image: url("images/PNG/ring-32x-light.png"), linear-gradient(rgba(39, 42, 49, 0.65), rgba(39, 42, 49, 0.65));
+  background-blend-mode: overlay;
+  background-repeat: space;
+}
+
+.main-h3 {
+  color: white;
+  font-weight: bold;
+}
+
+.hr-mobile {
+  margin: auto;
+  width: 7.5%;
+  border: 1px solid #ec5242;
+  opacity: 1;
+}
+
+.hr-desk {
+  margin: auto;
+  width: 5%;
+  border: 1px solid #ec5242;
+  opacity: 1;
+}
+
+.hr-speaker-mobile {
+  margin: 0;
+  width: 7.5%;
+  border: 1px solid #d3d3d3;
+  opacity: 1;
+}
+
+.hr-speaker-desk {
+  margin: 0;
+  width: 7.5%;
+  border: 1px solid #d3d3d3;
+  opacity: 1;
+}
+
+.main-h4 {
+  color: #ec5242;
+  font-weight: bold;
+}
+
+.main-p {
+  color: white;
+  font-size: 0.75rem;
+}
+
+.main-a {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.main-cards {
+  border: 2px solid transparent;
+  border-radius: 4px;
+}
+
+.main-cards:hover {
+  border: 2px solid white;
+  border-radius: 4px;
+}
+
+.partner-container {
+  background-color: #272a31;
+}
+
+.partner-h3 {
+  color: #f2f2f2;
+  font-weight: bold;
+}
+
+.bg-img-thumb {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.bg-img-thumb2 {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.footer-p {
+  color: #272a31;
+  font-size: 0.75rem;
+}
+
+.footer-container {
+  background-color: #f2f2f2;
+}
+
+.footer-a {
+  font-size: 0.8rem;
+}
+
+.footer-a-b {
+  font-size: 1.5rem;
+}
+
+.footer-container-about {
+  background-color: #272a31;
+}
+
+.footer-a-about {
+  color: #d3d3d3;
+  font-size: 0.8rem;
+}
+
+.footer-a-about:hover {
+  color: #d3d3d3;
+  font-size: 0.8rem;
+}
+
+.footer-a-b-about {
+  color: #d3d3d3;
+  font-size: 1.5rem;
+}
+
+.footer-a-b-about:hover {
+  color: #d3d3d3;
+  font-size: 1.5rem;
+}
+
+.footer-p-about {
+  color: #d3d3d3;
+  font-size: 0.75rem;
+}
+
+.hero-h1-about {
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: 700;
+  color: #ec5242;
+}
+
+.hero-a-about {
+  color: #272a31;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.hero-p-b {
+  font-weight: bold;
+  color: #272a31;
+  margin: 0;
+}
+
+.hero-container-about {
+  background-image: url("images/JPEG/Hero\ 26.jpg"), linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
+  background-position: center center;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.logo-h3 {
+  color: #272a31;
+  font-weight: bold;
+}
+
+.logo-p-mobile {
+  color: #272a31;
+  font-size: 1.2rem;
+}
+
+.logo-p-desk {
+  color: #272a31;
+  font-size: 1.25rem;
+}
+
+.logo-cards {
+  border: 2px solid #f2f2f2;
+  border-radius: 4px;
+}
+
+.logo-cards:hover {
+  border: 2px solid #ec5242;
+  border-radius: 4px;
+}
+
+.logo-a {
+  font-size: 1.5rem;
+  pointer-events: none;
+}
+
+.event-bg1 {
+  padding: 4rem;
+  background-image: url("images/JPEG/Pijama\ 15.jpg"), linear-gradient(rgba(236, 82, 66, 0.85), rgba(236, 82, 66, 0.85));
+  background-position: center top;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.event-bg2 {
+  padding: 4rem;
+  background-image: url("images/JPEG/Swimwear\ 18.jpg"), linear-gradient(rgba(236, 82, 66, 0.85), rgba(236, 82, 66, 0.85));
+  background-position: center top;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.event-h3 {
+  color: white;
+  font-weight: bold;
+}
+
+.event-p-mobile {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.event-p-desk {
+  color: white;
+  font-size: 1.25rem;
+}
+
+.speaker-h3 {
+  color: #272a31;
+  font-weight: bold;
+}
+
+.fa-solid {
+  color: #ec5242;
+}
+
+.speaker-h4 {
+  color: #272a31;
+  font-weight: bold;
+}
+
+.speaker-p-a {
+  color: #ec5242;
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.speaker-p-b {
+  color: #272a31;
+  font-size: 0.75rem;
+  margin: 0.25rem 0 0 0;
+}
+
 .box {
-  background-color: lightblue;
-  border: 1px solid blue;
+  background-color: transparent;
+  border: 1px solid transparent;
   min-height: 50px;
   font-size: 2rem;
 }
 
-@media (min-width: 576px) {
-  body::before {
-    content: "SM";
-  }
-}
-
-@media (min-width: 768px) {
-  body::before {
-    content: "MD";
-  }
-}
-
-@media (min-width: 992px) {
-  body::before {
-    content: "LG";
-  }
-}
-
-@media (min-width: 1200px) {
-  body::before {
-    content: "XL";
-  }
-}
-
-@media (min-width: 1400px) {
-  body::before {
-    content: "XXL";
-  }
+.box2 {
+  background-color: transparent;
+  border: 1px solid transparent;
+  min-height: 25px;
+  font-size: 2rem;
 }

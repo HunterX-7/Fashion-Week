@@ -12,31 +12,465 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script defer src="https://kit.fontawesome.com/fae7474c5f.js" crossorigin="anonymous"></script>
+    <script defer src="main.js"></script>
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <nav class="navbar navbar-expand text-bg-light">
+        <nav class="navbar navbar-expand p-0 navbar-dark bg-dark d-none d-md-block">
             <div class="container">
-                <a href="#" class="navbar-brand">Fashion Week</a>
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">About</a>
+                        <a href="#" class="nav-link"><img src="images/PNG/facebook-app-symbol-16x.png" alt="facebook-app-symbol"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Events</a>
+                        <a href="#" class="nav-link"><img src="images/PNG/instagram-16x.png" alt="instagram-app-symbol"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Sponsor</a>
+                        <a href="#" class="nav-link navbar-a">Spanish</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">News</a>
+                        <a href="#" class="nav-link navbar-a">My Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link navbar-a">Logout</a>
                     </li>
                 </ul>
-                <button type="submit" class="btn btn-outline-danger">Subscribe</button>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand bg-light d-none d-md-block">
+            <div class="container">
+                <a href="index.html" class="navbar-brand"><img src="images/PNG/wind-rose-64x.png" alt="Fashion Week logo"> <strong>Fashion Week</strong></a>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link m-3 navbar-b">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-3 navbar-b">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-3 navbar-b">Sponsor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-3 navbar-b">News</a>
+                    </li>
+                </ul>
+                <button type="submit" class="btn btn-outline-danger m-3 btn-custom">Subscribe</button>
             </div>
         </nav>
     </header>
-    <h1>Fashion Week</h1>
+    <!-- Hero Section -->
+    <section>
+        <div class="jumbotron hero-container">
+            <nav class="navbar p-2 d-md-none">
+                <button class="btn" data-bs-toggle="modal" data-bs-target="#modal"><img src="images/PNG/hamburger-32x.png" alt="hamburger-icon"></button>
+                <div class="modal fade" id="modal">
+                    <div class="modal-dialog modal-fullscreen">
+                        <div class="modal-content">
+                            <div class="modal-header bg-dark">
+                                <a href="index.html" class="navbar-brand"><img src="images/PNG/wind-rose-64x.png" alt="Fashion Week logo"></a>
+                                <button class="btn-close btn-close-white m-3" data-bs-dismiss="modal" data-bs-target="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row gap-3">
+                                        <div class="col-12">
+                                            <a href="#" class="nav-link"><h3>Facebook</h3></a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="#" class="nav-link"><h3>Instagram</h3></a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="#" class="nav-link"><h3>Spanish</h3></a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="#" class="nav-link"><h3>My Page</h3></a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="#" class="nav-link"><h3>Logout</h3></a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="about.html" class="nav-link"><h3>About</h3></a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="#" class="nav-link"><h3>Events</h3></a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="#" class="nav-link"><h3>Sponsor</h3></a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="#" class="nav-link"><h3>News</h3></a>
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="submit" class="btn btn-outline-danger  btn-custom">Subscribe</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="container-fluid p-4 d-md-none">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="box"></div>
+                    </div>
+                    <div class="col-12">
+                        <div class="box"></div>
+                    </div>
+                    <div class="col-md-11 col-12">
+                        <h2 class="display-5 hero-h2-a">"Every day is a Fashion Show!"</h2>
+                    </div>
+                    <div class="col-md-11 col-12">
+                        <h1 class="display-2 hero-h1">Welcome to Fashion Week Panama 2022</h1>
+                    </div>
+                    <div class="col-md-8 col-12 p-3 border border-4 rounded border-light hero-container-p">
+                        <p class="hero-p">Fashion Week Panama, better known as FWP, is the most important fashion event in Latin America and the world's fifth largest event after Paris, Milan, London and New York.</p>
+                    </div>
+                    <div class="col-md-11 col-12 mt-3">
+                        <h3 class="hero-h3">2022.12.07(WED) ~ 10(SAT)</h3>
+                        <h4 class="hero-h4">@ Figali Convention Center, Panama, Panama City</h4>
+                    </div>
+                    <div class="col-12">
+                        <div class="box"></div>
+                    </div>
+                    <div class="col-12">
+                        <div class="box"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container p-5 d-none d-md-block">
+                <div class="row gy-3">
+                    <div class="col-12">
+                        <div class="box"></div>
+                    </div>
+                    <div class="col-12">
+                        <div class="box"></div>
+                    </div>
+                    <div class="col-md-11 col-12">
+                        <h2 class="display-5 hero-h2-b">"Every day is a Fashion Show!"</h2>
+                    </div>
+                    <div class="col-md-11 col-12">
+                        <h1 class="display-2 hero-h1">Welcome to Fashion Week Panama 2022</h1>
+                    </div>
+                    <div class="col-md-8 col-12 p-3 border border-4 rounded border-light hero-container-p">
+                        <p class="hero-p">Fashion Week Panama, better known as FWP, is the most important fashion event in Latin America and the world's fifth largest event after Paris, Milan, London and New York.</p>
+                    </div>
+                    <div class="col-md-11 col-12 mt-3">
+                        <h3 class="hero-h3">2022.12.07(WED) ~ 10(SAT)</h3>
+                        <h4 class="hero-h4">@ Figali Convention Center, Panama, Panama City</h4>
+                    </div>
+                    <div class="col-12">
+                        <div class="box"></div>
+                    </div>
+                    <div class="col-12">
+                        <div class="box"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Main Program Section -->
+    <section>
+        <div class="jumbotron main-container d-md-none">
+            <div class="col-12">
+                <div class="box"></div>
+            </div>
+            <div class="container">
+                <div class="row gy-3">
+                    <div class="col-12 text-center">
+                        <div class="box">
+                            <h3 class="main-h3">Main Program</h3>
+                            <hr class="hr-mobile">
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="row p-3 gx-3 bg-opacity-25 bg-secondary rounded">
+                            <div class="col-3 my-auto">
+                                <img src="images/PNG/magazine-64x.png" alt="Magazine-icon">
+                            </div>
+                            <div class="col-3 my-auto">
+                                <h4 class="main-h4">Top Mags</h4>
+                            </div>
+                            <div class="col-6 my-auto">
+                                <p class="main-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aliquid accusamus quisquam odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="row p-3 gx-3 bg-opacity-25 bg-secondary rounded">
+                            <div class="col-3 my-auto">
+                                <img src="images/PNG/hand-64x.png" alt="Magazine-icon">
+                            </div>
+                            <div class="col-3 my-auto">
+                                <h4 class="main-h4">Hot Jewels</h4>
+                            </div>
+                            <div class="col-6 my-auto">
+                                <p class="main-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aliquid accusamus quisquam odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="row p-3 gx-3 bg-opacity-25 bg-secondary rounded">
+                            <div class="col-3 my-auto">
+                                <img src="images/PNG/purse-64x.png" alt="Magazine-icon">
+                            </div>
+                            <div class="col-3 my-auto">
+                                <h4 class="main-h4">Hand Bags</h4>
+                            </div>
+                            <div class="col-6 my-auto">
+                                <p class="main-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aliquid accusamus quisquam odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="row p-3 gx-3 bg-opacity-25 bg-secondary rounded">
+                            <div class="col-3 my-auto">
+                                <img src="images/PNG/dress-64x.png" alt="Magazine-icon">
+                            </div>
+                            <div class="col-3 my-auto">
+                                <h4 class="main-h4">Sizing</h4>
+                            </div>
+                            <div class="col-6 my-auto">
+                                <p class="main-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aliquid accusamus quisquam odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="row p-3 gx-3 bg-opacity-25 bg-secondary rounded">
+                            <div class="col-3 my-auto">
+                                <img src="images/PNG/perfume-64x.png" alt="Magazine-icon">
+                            </div>
+                            <div class="col-3 my-auto">
+                                <h4 class="main-h4">Parfum</h4>
+                            </div>
+                            <div class="col-6 my-auto">
+                                <p class="main-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aliquid accusamus quisquam odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <div class="box">
+                            <button type="submit" class="btn btn-outline-light p-3 btn-custom2">Join Fashion Week Panama 2022</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="box"></div>
+            </div>
+        </div>
+        <div class="jumbotron main-container d-none d-md-block">
+            <div class="col-12">
+                <div class="box"></div>
+            </div>
+            <div class="container">
+                <div class="row gx-1">
+                    <div class="col-12 text-center">
+                        <div class="box">
+                            <h3 class="main-h3">Main Program</h3>
+                            <hr class="hr-desk">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="box"></div>
+                    </div>
+                    <div class="col">
+                            <div class="row m-0 p-0 gy-3 bg-opacity-25 bg-secondary rounded main-cards">
+                                <div class="col-12 text-center">
+                                    <img src="images/PNG/magazine-64x.png" alt="Magazine-icon">
+                                </div>
+                                <div class="col-12 p-2 text-center">
+                                    <h4 class="main-h4">Top Mags</h4>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <p class="main-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aliquid accusamus quisquam odio.</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col">
+                        <div class="row m-0 p-0 gy-3 bg-opacity-25 bg-secondary rounded main-cards">
+                            <div class="col-12 text-center">
+                                <img src="images/PNG/hand-64x.png" alt="Jewelry-icon">
+                            </div>
+                            <div class="col-12 p-2 text-center">
+                                <h4 class="main-h4">Hot Jewels</h4>
+                            </div>
+                            <div class="col-12 text-center">
+                                <p class="main-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aliquid accusamus quisquam odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row m-0 p-0 gy-3 bg-opacity-25 bg-secondary rounded main-cards">
+                            <div class="col-12 text-center">
+                                <img src="images/PNG/purse-64x.png" alt="Purse-icon">
+                            </div>
+                            <div class="col-12 p-2 text-center">
+                                <h4 class="main-h4">Hand Bags</h4>
+                            </div>
+                            <div class="col-12 text-center">
+                                <p class="main-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aliquid accusamus quisquam odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row m-0 p-0 gy-3 bg-opacity-25 bg-secondary rounded main-cards">
+                            <div class="col-12 text-center">
+                                <img src="images/PNG/dress-64x.png" alt="Dress-icon">
+                            </div>
+                            <div class="col-12 p-2 text-center">
+                                <h4 class="main-h4">Sizing</h4>
+                            </div>
+                            <div class="col-12 text-center">
+                                <p class="main-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aliquid accusamus quisquam odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row m-0 p-0 gy-3 bg-opacity-25 bg-secondary rounded main-cards">
+                            <div class="col-12 text-center">
+                                <img src="images/PNG/perfume-64x.png" alt="Perfume-icon">
+                            </div>
+                            <div class="col-12 p-2 text-center">
+                                <h4 class="main-h4">Parfum</h4>
+                            </div>
+                            <div class="col-12 text-center">
+                                <p class="main-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aliquid accusamus quisquam odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="box"></div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <div class="box">
+                            <a href="#" class="link-light main-a">SEE THE WHOLE EVENT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="box"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Speaker Section -->
+    <section>
+        <div class="jumbotron speaker-container">
+            <div class="col-12">
+                <div class="box"></div>
+            </div>
+            <div class="col-12 text-center">
+                <div class="box">
+                    <h3 class="speaker-h3">Featured Speakers</h3>
+                    <hr class="hr-desk">
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="box2"></div>
+            </div>
+            <div class="container d-md-none">
+                <div id="Speakers-mobile" class="row g-3">
+                    
+                    <!-- "Featured speakers mobile" with dynamic HTML -->
+
+                </div>
+            </div>
+            <div class="container d-none d-md-block">
+                <div id="Speakers-desk" class="row g-3">
+
+                    <!-- "Featured speakers desktop" with dynamic HTML -->
+                    
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="box"></div>
+            </div>
+            <div class="container d-md-none">
+                <div class="col-12 text-center">
+                    <div class="box">
+                        <button type="submit" class="btn btn-outline-dark btn-custom3">MORE <i class="fa-solid fa-angle-down"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="box"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Partner Section -->
+    <section>
+        <div class="jumbotron partner-container d-none d-md-block">
+            <div class="col-12">
+                <div class="box2"></div>
+            </div>
+            <div class="container">
+                <div class="row gx-1">
+                    <div class="col-12 text-center">
+                        <div class="box">
+                                <h3 class="partner-h3">Partner</h3>
+                                <hr class="hr-desk">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="box2"></div>
+                    </div>
+                    <div class="col my-auto">
+                        <div class="box">
+                            <img class="img-thumbnail bg-img-thumb" src="images/PNG/Ralph_Lauren-Logo1.png" alt="Ralph_Lauren-Logo">
+                        </div>
+                    </div>
+                    <div class="col my-auto">
+                        <div class="box">
+                            <img class="img-thumbnail bg-img-thumb" src="images/PNG/Prada-Logo.png" alt="Prada-Logo">
+                        </div>
+                    </div>
+                    <div class="col my-auto">
+                        <div class="box">
+                            <img class="img-thumbnail bg-img-thumb" src="Images/PNG/Chanel-Logo.png" alt="Chanel-Logo">
+                        </div>
+                    </div>
+                    <div class="col my-auto">
+                        <div class="box">
+                            <img class="img-thumbnail bg-img-thumb" src="Images/PNG/H_M-Logo1.png" alt="H_M-Logo">
+                        </div>
+                    </div>
+                    <div class="col my-auto">
+                        <div class="box">
+                            <img class="img-thumbnail bg-img-thumb" src="Images/PNG/Louis_Vuitton-Logo.png" alt="Louis_Vuitton-Logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="box2"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer>
+            <div class="jumbotron footer-container p-4 d-none d-md-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-5 my-auto">
+                            <div class="box">
+                                <a href="index.html" class="navbar-brand footer-a-b"><img src="images/PNG/wind-rose-64x.png" alt="Fashion Week logo"> <strong>Fashion Week</strong></a>
+                            </div>
+                        </div>
+                        <div class="col-7 my-auto">
+                            <div class="box">
+                                <p class="footer-p"><br>2022 Fashion Week Panama. Some Rights Reserved.
+                                <br>모든 국민은 직업선택의 자유를 가진다. 2022 모든 국민은 사생활의 비밀과 자유를 침해받지 아. 모든 국민은 직업선택의 자유를 가진다. 모든 국민은 사생활의 비밀과 자유를 침해받지 아.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
 </body>
 </html>
