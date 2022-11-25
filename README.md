@@ -1,16 +1,22 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Fashion-Week-page
-This is a template for a Fashion and Clothing events page. The main objective is to showcase my skills in HTML/CSS and JavaScript.
+This is a template for a Fashion and Clothing events page. The main objective is to showcase my skills in HTML/CSS, Bootstrap and JavaScript.
+![screencapture-hunterx-7-github-io-Fashion-Week-2022-11-25-17_48_41](https://user-images.githubusercontent.com/90111138/204061316-5f7a9558-5934-42b1-a0d3-55537921c9db.png)
 
 ## Built With
 
 - HTML
 - CSS
+- Bootstrap 5
 - JavaScript
 
 ## Live Demo
 
-[Live Demo Link](#)
+[Live Demo Link](https://hunterx-7.github.io/Fashion-Week/)
+
+## Video Description
+
+[Here](https://www.loom.com/share/fdde3a9996184ba59fba3e375171eec4) you can see a video recording describing the project and its features.
 
 ## Getting Started
 
@@ -26,7 +32,7 @@ To get a local copy up and running follow these steps:
 
 ### Prerequisites
 
--Basics of HTML, CSS, JavaScript
+-Basics of HTML, CSS, Bootstrap 5 and JavaScript
 
 -Web browser 
 
@@ -62,7 +68,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Please give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
