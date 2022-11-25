@@ -6,21 +6,21 @@ body {
 
 .btn-custom {
   color: #ec5242;
-  border: 2px solid #ec5242;
+  border: 4px solid #ec5242;
   font-weight: bold;
 }
 
 .btn-custom:active {
   background-color: #ec5242;
   color: white;
-  border: 2px solid #ec5242;
+  border: 4px solid #ec5242;
   font-weight: bold;
 }
 
 .btn-custom:hover {
   background-color: #ec5242;
   color: white;
-  border: 2px solid #ec5242;
+  border: 4px solid #ec5242;
   font-weight: bold;
 }
 
@@ -358,7 +358,6 @@ body {
 .speaker-h3 {
   color: #272a31;
   font-weight: bold;
-  margin-bottom: 0.25rem;
 }
 
 .fa-solid {
