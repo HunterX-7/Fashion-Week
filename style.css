@@ -80,7 +80,7 @@ body {
 }
 
 .hero-container {
-  background-image: url("images/JPEG/Hero\ 19.jpg"), linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
+  background-image: url("Images/JPEG/Hero\ 19.jpg"), linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
   background-position: center center;
   background-blend-mode: overlay;
   background-repeat: no-repeat;
@@ -103,7 +103,7 @@ body {
 .hero-h1 {
   font-family: "COCOGOOSE", sans-serif;
   font-weight: 900;
-  background: url("images/JPEG/Red-animal-print.jpg") no-repeat;
+  background: url("Images/JPEG/Red-animal-print.jpg") no-repeat;
   background-position: center center;
   background-color: #ec5242;
   background-size: cover;
@@ -135,7 +135,7 @@ body {
 
 .main-container {
   background-color: #272a31;
-  background-image: url("images/PNG/ring-32x-light.png"), linear-gradient(rgba(39, 42, 49, 0.65), rgba(39, 42, 49, 0.65));
+  background-image: url("Images/PNG/ring-32x-light.png"), linear-gradient(rgba(39, 42, 49, 0.65), rgba(39, 42, 49, 0.65));
   background-blend-mode: overlay;
   background-repeat: space;
 }
@@ -284,7 +284,7 @@ body {
 }
 
 .hero-container-about {
-  background-image: url("images/JPEG/Hero\ 26.jpg"), linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
+  background-image: url("Images/JPEG/Hero\ 26.jpg"), linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
   background-position: center center;
   background-blend-mode: overlay;
   background-repeat: no-repeat;
@@ -324,7 +324,7 @@ body {
 
 .event-bg1 {
   padding: 4rem;
-  background-image: url("images/JPEG/Pijama\ 15.jpg"), linear-gradient(rgba(236, 82, 66, 0.85), rgba(236, 82, 66, 0.85));
+  background-image: url("Images/JPEG/Pijama\ 15.jpg"), linear-gradient(rgba(236, 82, 66, 0.85), rgba(236, 82, 66, 0.85));
   background-position: center top;
   background-blend-mode: overlay;
   background-repeat: no-repeat;
@@ -333,7 +333,7 @@ body {
 
 .event-bg2 {
   padding: 4rem;
-  background-image: url("images/JPEG/Swimwear\ 18.jpg"), linear-gradient(rgba(236, 82, 66, 0.85), rgba(236, 82, 66, 0.85));
+  background-image: url("Images/JPEG/Swimwear\ 18.jpg"), linear-gradient(rgba(236, 82, 66, 0.85), rgba(236, 82, 66, 0.85));
   background-position: center top;
   background-blend-mode: overlay;
   background-repeat: no-repeat;
