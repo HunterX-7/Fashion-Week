@@ -16,7 +16,7 @@ This is a template for a Fashion and Clothing events page. The main objective is
 
 ## Video Description
 
-[Here](#) you can see a video recording describing the project and its features.
+[Here](https://www.loom.com/share/fdde3a9996184ba59fba3e375171eec4) you can see a video recording describing the project and its features.
 
 ## Getting Started
 
