@@ -1,4 +1,8 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<div align="left">
+
+  <img src="./images/toDoList.png" alt="logo" width="140"  height="auto" />
+
+</div>
 # Fashion-Week
 This is a template for a Fashion and Clothing events page. The main objective is to showcase my skills in HTML/CSS, Bootstrap and JavaScript.
 ![screencapture-hunterx-7-github-io-Fashion-Week-2022-11-25-17_48_41](https://user-images.githubusercontent.com/90111138/204061316-5f7a9558-5934-42b1-a0d3-55537921c9db.png)
