@@ -56,9 +56,9 @@ The following test will run automatically as you try to pull request:
 
 👤 **Francisco Quintero**
 
-- GitHub: https://github.com/HunterX-7
-- Twitter: https://twitter.com/franquin07
-- LinkedIn: https://www.linkedin.com/in/francisco-quintero-146423252/
+- GitHub: [@HunterX-7](https://github.com/HunterX-7)
+- Twitter: [@franquin07](https://twitter.com/franquin07)
+- LinkedIn: [Francisco Quintero](https://www.linkedin.com/in/francisco-asis-quintero-cede%C3%B1o/)
 
 ## 🤝 Contributing
 
